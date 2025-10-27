@@ -5,7 +5,7 @@ const products = [
         name: 'Minimalist Lotus',
         category: 'small',
         price: 12.99,
-        image: './tattoos/small1.jpg',
+        image: './small1.jpg',
         description: 'A delicate lotus flower design perfect for wrists or ankles. Symbolizes purity and enlightenment.',
         size: '2x2 inches'
     },
@@ -14,7 +14,7 @@ const products = [
         name: 'Geometric Wolf',
         category: 'medium',
         price: 18.99,
-        image: './tattoos/med1.jpg',
+        image: './med1.jpg',
         description: 'Modern geometric interpretation of a fierce wolf. Perfect for forearms or shoulders.',
         size: '4x4 inches'
     },
@@ -23,7 +23,7 @@ const products = [
         name: 'Dragon Sleeve',
         category: 'half-sleeve',
         price: 34.99,
-        image: './tattoos/half1.jpg',
+        image: './half1.jpg',
         description: 'Intricate Japanese-inspired dragon design that wraps beautifully around the forearm.',
         size: '8x12 inches'
     },
@@ -32,7 +32,7 @@ const products = [
         name: 'Rose Bouquet',
         category: 'medium',
         price: 16.99,
-        image: './tattoos/med2.jpg',
+        image: './med2.jpg',
         description: 'Beautiful cluster of roses with leaves and thorns. Classic and timeless design.',
         size: '3x5 inches'
     },
@@ -41,7 +41,7 @@ const products = [
         name: 'Tribal Phoenix',
         category: 'full-sleeve',
         price: 49.99,
-        image: './tattoos/full1.jpg',
+        image: './full1.jpg',
         description: 'Magnificent phoenix rising from flames in tribal style. Complete full-sleeve experience.',
         size: '12x18 inches'
     },
@@ -50,7 +50,7 @@ const products = [
         name: 'Constellation Map',
         category: 'small',
         price: 11.99,
-        image: './tattoos/small2.jpg',
+        image: './small2.jpg',
         description: 'Delicate star constellation with connecting lines. Perfect for astronomy lovers.',
         size: '2x3 inches'
     },
@@ -59,7 +59,7 @@ const products = [
         name: 'Koi Fish Pair',
         category: 'half-sleeve',
         price: 32.99,
-        image: './tattoos/half2.jpg',
+        image: './half2.jpg',
         description: 'Two koi fish swimming in harmony with water elements. Symbol of balance and prosperity.',
         size: '7x11 inches'
     },
@@ -68,7 +68,7 @@ const products = [
         name: 'Mountain Range',
         category: 'small',
         price: 13.99,
-        image: './tattoos/small3.jpg',
+        image: './small3.jpg',
         description: 'Minimalist mountain silhouette with pine trees. For nature enthusiasts.',
         size: '2x4 inches'
     },
@@ -77,7 +77,7 @@ const products = [
         name: 'Mandala Flower',
         category: 'medium',
         price: 19.99,
-        image: './tattoos/med3.jpg',
+        image: './med3.jpg',
         description: 'Intricate mandala pattern with floral elements. Represents wholeness and harmony.',
         size: '5x5 inches'
     },
@@ -86,7 +86,7 @@ const products = [
         name: 'Samurai Warrior',
         category: 'full-sleeve',
         price: 52.99,
-        image: './tattoos/full2.jpg',
+        image: './full2.jpg',
         description: 'Detailed samurai in traditional armor with cherry blossoms. Full-sleeve masterpiece.',
         size: '14x20 inches'
     },
@@ -95,7 +95,7 @@ const products = [
         name: 'Arrow Heart',
         category: 'small',
         price: 10.99,
-        image: './tattoos/small4.jpg',
+        image: './small4.jpg',
         description: 'Heart pierced with arrow in minimalist style. Symbol of love and courage.',
         size: '1.5x2 inches'
     },
@@ -104,7 +104,7 @@ const products = [
         name: 'Butterfly Wings',
         category: 'medium',
         price: 17.99,
-        image: './tattoos/med4.jpg',
+        image: './med4.jpg',
         description: 'Elegant butterfly with detailed wing patterns. Represents transformation.',
         size: '4x3 inches'
     },
@@ -113,7 +113,7 @@ const products = [
         name: 'Ocean Wave',
         category: 'half-sleeve',
         price: 36.99,
-        image: './tattoos/half3.jpg',
+        image: './half3.jpg',
         description: 'Japanese great wave with foam details. Dynamic and powerful design.',
         size: '9x13 inches'
     },
@@ -122,7 +122,7 @@ const products = [
         name: 'Feather',
         category: 'small',
         price: 11.99,
-        image: './tattoos/small5.jpg',
+        image: './small5.jpg',
         description: 'Delicate feather with fine details. Symbol of freedom and lightness.',
         size: '2x5 inches'
     },
@@ -132,7 +132,7 @@ const products = [
         name: 'Samurai Warrior',
         category: 'full-sleeve',
         price: 52.99,
-        image: './tattoos/full3.jpg',
+        image: './full3.jpg',
         description: 'Detailed samurai in traditional armor with cherry blossoms. Full-sleeve masterpiece.',
         size: '14x20 inches'
     },
@@ -427,4 +427,5 @@ function animateValue(element, start, end, duration) {
             element.textContent = Math.floor(current);
         }
     }, 16);
+
 }
